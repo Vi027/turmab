@@ -1,0 +1,108 @@
+body {
+    background-image: url('Pizza.jfif');
+    background-size: cover; /* Isso faz com que a imagem cubra toda a tela sem perder qualidade */
+    background-position: center; /* Isso alinha a imagem no centro da tela */
+    background-repeat: no-repeat; /* Isso evita que a imagem se repita */
+    height: 50vh; /* Isso faz com que o fundo cubra toda a altura da janela */
+    margin: 0; /* Isso remove qualquer margem padrão */
+}
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+#cadastro {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nome input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+}
+.telefone input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.rua input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.bairro input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.complemento input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.cep input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.referencia input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.cadastrar input{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    background-color: #77c97b;
+    color: #1b1c30;
+    transition: background-color 0.3s ease; /* transição suave */
+}
+.cadastrar input:hover {
+    background-color: #4d9b57; /* verde escuro quando o mouse passa sobre o botão */
+}
+input ::placeholder {
+    color: #8d8e99;
+}
+.caixa {
+    margin-top: 65px;
+}
+.caixa img {
+    width: 185px;
+}
